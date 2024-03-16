@@ -5,13 +5,70 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+.background {
+  background-image: url('/images/background.jpg');
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+.img{
+  border-radius: 50%;
+  min-width: 0;
+  display: flex;
+  margin: 0 10px;
+  padding: 20px;
 
+}
+.titles{
+  font-size: 2rem;
+  text-align: center;
+  display:flex;
+  justify-content: space-around;
+}
 .Gruppo{
   font-family: var(--font-Gruppo);
 }
-
+.Dm{
+  font-family: var(--font-dm-serif-display);
+}
 .pic{
   object-fit: cover;
   z-index: -5;
 }
+.picture {
+  height: auto;
+  max-width: 40%;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  position:absolute;
+}
+@media (max-width: 768px) {
+  .text {
+    text-align: center;
+  }
+  
+  .picture {
+    display:none;
+    
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  .text h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .text h1 {
+    font-size: 4rem;
+  }
+}
+

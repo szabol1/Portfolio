@@ -1,4 +1,4 @@
-import { Inter, Gruppo } from "next/font/google";
+import { Inter, Gruppo} from "next/font/google";
 import "./globals.css"; 
 import Image from "next/image"
 import NavBar from "./components/navbar/page"

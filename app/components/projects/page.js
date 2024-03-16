@@ -1,100 +1,78 @@
 import Image from "next/image";
+import { DM_Serif_Display  } from "next/font/google";
 import NavBar from "../navbar/page";
 import Footer from "../footer/page"
+import "../projects/project.css"
+const dm_serif_display = DM_Serif_Display({
+    subsets: ['latin'],
+    weight: ['400'],
+    variable: '--font-dm-serif-display'
+})
 export default function Projects(){
     return(
-        <div className = "h-screen w-screen bg-slate-100 pt-16">
-            <div className = "bg-slate-100">
-            <div className="container mx-auto bg-slate-100 flex justify-center ">
+        <div className = {dm_serif_display.className}>
+        <div className = "w-full h-full bg-slate-100 flex flex-wrap">
+             <div className = "w-1/2">
+                <div className="flex flex-wrap flex-col pt-20 items-center text-blue-950 bg-blue-200 w-full h-full">
+                <div className="text">
+                <h1 className="text-8xl">Looking for a full stack developer?</h1>
+                <h2 className="text-5xl">Check Out</h2>
+                <h2 className="text-5xl">My Projects!</h2>
+                </div>
+                </div>
+             </div>
+
+             
+
+            <div className = "bg-slate-100 w-1/2 ml-auto flex flex-wrap p-2">
+            <div className=" mx-auto flex justify-center">
             
             {/* Image 1 with Link */}
-           
-            <a href="https://example.com/page1" target="_blank" className=" mx-12">
-            <div className = "transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/30">
-            <Image src="/images/notebook.png" alt="Image 1" width={400} height={300} className = "rounded-lg object-cover overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-100 transition duration-300 ease-in-out hover:opacity-80" />
-           
-            <div className="p-4  bg-white">
-                <p className="text-lg font-semibold">Image 1</p>
-                <p className="text-sm text-gray-500">Click to view</p>
-            </div>
-            </div>
-           
-            <h1 className = "text-8xl mt-8 text-center">Out</h1>
-          
-            </a>
+            <a href="https://example.com/page1" target="_blank" className="p-2 rounded-lg ">
+            <div className = "transition duration-300 ease-in-out hover:shadow-lg shadow-md dark:hover:shadow-black/30">
+            <Image src="/images/notebook.png" alt="Image 1" width={800} height={800} className = "object-cover bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-100 transition duration-300 ease-in-out hover:opacity-80" />
          
+            </div>
+            </a>
 
             {/* Image 2 with Link */}
-            <a href="https://example.com/page2" target="_blank" className=" mt-18 pt-3 rounded-lg mx-12 min-w-0">
+            <a href="https://example.com/page2" target="_blank" className="p-2 rounded-lg min-w-0">
            
-            <h1 className = "drop-shadow-xl -my-3 text-8xl text-center z-auto">Check</h1>
-            <div className = "transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/30">
-            <Image src="/images/music logo.png" alt="Image 2" width={400} height={300} className = "rounded-lg object-cover mt-14 min-w-0 bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-100 transition duration-300 ease-in-out hover:opacity-80"/>
+            <div className = "transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/30 shadow-md">
+            <Image src="/images/music logo.png" alt="Image 2" width={800} height={800} className = " object-cover bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-100 transition duration-300 ease-in-out hover:opacity-80"/>
+           
             
-            <div className="p-4 bg-white">
-                <p className="text-lg font-semibold bg-white">Image 2</p>
-                <p className="text-sm text-gray-500">Click to view</p>
-            </div>
             </div>
             </a>
+            </div>
 
-            {/* Image 3 with Link */}
-            <a href="https://example.com/page3" target="_blank" className=" rounded-lg mx-12">
-            <div className = "transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/30">
-            <Image src="/images/recipes.png" alt="Image 3" width={400} height={300} className = "object-cover bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-100 transition duration-300 ease-in-out hover:opacity-80"/>
-           
-            <div className="p-4 bg-white">
-                <p className="text-lg font-semibold">Image 3</p>
-                <p className="text-sm text-gray-500">Click to view</p>
-            </div>
-            </div>
-            <h1 className = "drop-shadow-xl text-7xl mt-8 text-center">My Work</h1>
-            </a>
-            </div>
-            
-            <div className="container mx-auto bg-slate-100 flex justify-center py-16 ">
+            <div className=" mx-auto bg-slate-100 flex justify-center ">
             
             {/* Image 1 with Link */}
-            <a href="https://example.com/page1" target="_blank" className=" rounded-lg mx-12 ">
-            <div className = "transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/30">
-            <Image src="/images/notebook.png" alt="Image 1" width={400} height={300} className = "object-cover bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-100 transition duration-300 ease-in-out hover:opacity-80" />
+            <a href="https://example.com/page1" target="_blank" className=" rounded-lg p-2 ">
+            <div className = "transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/30 shadow-md">
+            <Image src="/images/recipes.png" alt="Image 1" width={800} height={800} className = "object-cover bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-100 transition duration-300 ease-in-out hover:opacity-80" />
            
-            <div className="p-4 bg-white">
-                <p className="text-lg font-semibold">Image 1</p>
-                <p className="text-sm text-gray-500">Click to view</p>
-            </div>
+         
             </div>
             </a>
 
             {/* Image 2 with Link */}
-            <a href="https://example.com/page2" target="_blank" className=" mt-18 pt-3 rounded-lg mx-12 min-w-0">
+            <a href="https://example.com/page2" target="_blank" className="p-2 rounded-lg min-w-0">
            
-            <div className = "transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/30">
-            <Image src="/images/music logo.png" alt="Image 2" width={400} height={300} className = " object-cover mt-14 min-w-0 bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-100 transition duration-300 ease-in-out hover:opacity-80"/>
+            <div className = "transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/30 shadow-md">
+            <Image src="/images/stock.png" alt="Image 2" width={800} height={800} className = " object-cover bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-100 transition duration-300 ease-in-out hover:opacity-80"/>
            
-            <div className="p-4 bg-white">
-                <p className="text-lg font-semibold bg-white">Image 2</p>
-                <p className="text-sm text-gray-500">Click to view</p>
-            </div>
+      
             </div>
             </a>
-
-            {/* Image 3 with Link */}
-            <a href="https://example.com/page3" target="_blank" className=" rounded-lg mx-12">
-            <div className = "transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/30">
-            <Image src="/images/recipes.png" alt="Image 3" width={400} height={300} className = "object-cover bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-100 transition duration-300 ease-in-out hover:opacity-80"/>
+            </div>
+            </div>
           
-            <div className="p-4 bg-white">
-                <p className="text-lg font-semibold">Image 3</p>
-                <p className="text-sm text-gray-500">Click to view</p>
-            </div>
-            </div>
-           
-            </a>
-            </div>
-            </div>
-            <hr className = " border-t-1 border-gray-500"></hr>
-            <Footer />
+
+           </div>
+           <hr className = " border-t-1 border-gray-500"></hr>
+           <Footer/>
         </div>
     );
 };
