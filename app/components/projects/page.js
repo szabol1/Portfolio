@@ -49,7 +49,7 @@ export default function Projects(){
             <div className=" mx-auto bg-slate-100 flex justify-center ">
             
             {/* Image 1 with Link */}
-            <a href="https://example.com/page1" target="_blank" className=" rounded-lg p-2 ">
+            <a href="https://laurens-recipes.netlify.app/" target="_blank" className=" rounded-lg p-2 ">
             <div className = "transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/30 shadow-md">
             <Image src="/images/recipes.png" alt="Image 1" width={800} height={800} className = "object-cover bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-100 transition duration-300 ease-in-out hover:opacity-80" />
            
