@@ -5,16 +5,14 @@ import "./about.css"
 const AboutPage = () => {
     return (
         <div>
-            <div className="about-container">
+            <div className="about-container bg-blue-100 ">
                 <div className="profile-picture">
-                    <img src="your-profile-picture-url" alt="Profile Picture" />
+                    <img src="/images/first resume-3.png" alt="resume"/>
                 </div>
-                <div className="about-section">
+                <div className="about-section p-16 pb-0">
                     <h2>About Me</h2>
                     <p>
-                        Add your about me content here
-                        lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        I am a full stack developer with a solid foundation in design and leadership. My early career involved teaching and creating art, which honed my skills in design and artistic vision. Currently, I teach full stack development at the college level, specializing in front-end design. My expertise spans across various languages and frameworks, including Java, Python, JavaScript, React.js, Next.js, Node.js, SQL, MongoDB, and more.
                     </p>
                 </div>
             </div>

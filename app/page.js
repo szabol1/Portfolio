@@ -50,8 +50,8 @@ export default function Home() {
             </div>
             <div className ="flex items-center justify-between w-full mt-7 lg:px-10 text-center ">
             <h1 className = "lg:w-1/4 w-1/3 ">Leadership: my experience as a  teacher has given me both leadership experience and the ability to guide others towards understanding concepts</h1>
-            <h1 className = "lg:w-1/4 w-1/3">Design: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci commodi, cumque deleniti ducimus eius est eveniet exercitationem, facere iste labore maiores nemo nulla obcaecati officia omnis optio, quasi rem.</h1>
-            <h1 className = "lg:w-1/4 w-1/3">Programming: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid commodi fugiat illum maiores quidem, temporibus vel voluptate. Cumque omnis porro rem totam. A eaque fugiat magni nesciunt rem, sunt velit?</h1>
+            <h1 className = "lg:w-1/4 w-1/3">Design: my background in art and design gives me strong skills in front end development that can be utilized for mock ups as well as building ui from the ground up.</h1>
+            <h1 className = "lg:w-1/4 w-1/3">Programming: after doing some self teaching to prove myself for the program I enrolled into a masters in computer science, and dived deeper into advanced programming topics while fortifying my programming and logical thinking skills</h1>
             </div>
       </div>
     <div className = "absolute bottom-0 w-full lg:static pt-20">

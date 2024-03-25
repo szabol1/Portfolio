@@ -1,18 +1,21 @@
 .about-container {
     display: flex;
     justify-content: space-between;
-   
+
 }
 
 .profile-picture {
-  flex:1;
+  flex:1.5;
 }
 
 .about-section {
   flex:1;
 }
-p{
-    font-size: 3rem;
+.about-container p{
+    font-size: 2rem;
     color: #333;
-    line-height: 1.5;
+    line-height: 2;
+}
+img{
+    background-size: contain;
 }

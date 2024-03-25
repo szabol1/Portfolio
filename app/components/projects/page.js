@@ -15,7 +15,7 @@ export default function Projects(){
              <div className = "w-1/2">
                 <div className="flex flex-wrap flex-col pt-20 items-center text-blue-950 bg-blue-200 w-full h-full">
                 <div className="text">
-                <h1 className="text-8xl">Looking for a full stack developer?</h1>
+                <h1 className="text-8xl">Looking For a Full Stack Developer?</h1>
                 <h2 className="text-5xl">Check Out</h2>
                 <h2 className="text-5xl">My Projects!</h2>
                 </div>
@@ -28,7 +28,7 @@ export default function Projects(){
             <div className=" mx-auto flex justify-center">
             
             {/* Image 1 with Link */}
-            <a href="https://example.com/page1" target="_blank" className="p-2 rounded-lg ">
+            <a href="https://github.com/szabol1/Note-taking" target="_blank" className="p-2 rounded-lg ">
             <div className = "transition duration-300 ease-in-out hover:shadow-lg shadow-md dark:hover:shadow-black/30">
             <Image src="/images/notebook.png" alt="Image 1" width={800} height={800} className = "object-cover bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-100 transition duration-300 ease-in-out hover:opacity-80" />
          
@@ -36,7 +36,7 @@ export default function Projects(){
             </a>
 
             {/* Image 2 with Link */}
-            <a href="https://example.com/page2" target="_blank" className="p-2 rounded-lg min-w-0">
+            <a href="https://github.com/szabol1/Mustic-Recommender" target="_blank" className="p-2 rounded-lg min-w-0">
            
             <div className = "transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/30 shadow-md">
             <Image src="/images/music logo.png" alt="Image 2" width={800} height={800} className = " object-cover bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-100 transition duration-300 ease-in-out hover:opacity-80"/>
