@@ -2,8 +2,7 @@
 export default function Footer(){
 
     return(
-
-      <footer className="bg-white text-black p-8 mt-auto">
+      <div className="bg-white text-black p-12 mt-auto">
       <div>
         <p>&copy; 2024 Lauren Szabo. All rights reserved.</p>
       </div>
@@ -14,7 +13,7 @@ export default function Footer(){
           <li><a href="#contact" className="hover:text-gray-300">Contact</a></li>
         </ul>
       </div>
-    </footer>
+    </div>
 
     );
 
