@@ -6,6 +6,8 @@
 
 .profile-picture {
   flex:1.5;
+  justify-content: center;
+  align-content: center;
 }
 
 .about-section {
