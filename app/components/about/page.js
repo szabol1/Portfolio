@@ -12,7 +12,7 @@ const AboutPage = () => {
                 <div className="about-section p-16 pb-0">
                     <h2>About Me</h2>
                     <p>
-                        I am a full stack developer with a solid foundation in design and leadership. My early career involved teaching and creating art, which honed my skills in design and artistic vision. Currently, I teach full stack development at the college level, specializing in front-end design. My expertise spans across various languages and frameworks, including Java, Python, JavaScript, React.js, Next.js, Node.js, SQL, MongoDB, and more.
+                        I am a Master's in Computer Science graduate and seasoned Java developer with a flair for innovation and design. From crafting immersive stock trading platforms to sculpting personalized song recommenders, I thrive on blending creativity with technical expertise. With a solid foundation in full-stack development, I specialize in Java, JavaScript, React.js, and API integration. Passionate about teaching and leading, I bring a unique blend of artistry and innovation to every project, transforming ideas into digital masterpieces
                     </p>
                 </div>
             </div>
