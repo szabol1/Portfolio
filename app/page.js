@@ -13,7 +13,7 @@ export default function Home() {
         <div className="relative z-10 flex flex-col sm:flex-wrap">
         <h1 className = "lg:text-9xl m-8 mt-3">Hello!</h1>
         <h1 className = "lg:text-9xl m-8 mt-5">I'm Lauren, a</h1>
-        <h1 className = "lg:text-8xl m-8 mb-4 mt-5">Web Designer and Developer</h1>
+        <h1 className = "lg:text-8xl m-8 mb-4 mt-5">Full Stack Software Developer</h1>
         <div className="picture">
         <img src = "/images/icon.png"
         className = "lg:w-full"/>

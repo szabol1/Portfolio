@@ -20,7 +20,7 @@ export default function NavBar() {
         <ul className = "flex justify-between">
           <li><a className = "hover:text-blue-600 duration-100 text-black" href = "/">Home</a></li>
           <li><a className = "hover:text-blue-600 duration-100 text-black" href = "/components/ContactPage">Contact</a></li>
-          <li><a className = "hover:text-blue-600 duration-100 text-black" href = "#">Resume</a></li>
+          <li><a className = "hover:text-blue-600 duration-100 text-black" href = "/components/resume">Resume</a></li>
           <li><a className = "hover:text-blue-600 duration-100 text-black" href = "/components/projects">Projects</a></li>
           <li><a className = "hover:text-blue-600 duration-100 text-black" href = "/components/about">About</a></li>
           <li><a className = "hover:text-blue-600 duration-100 text-black" href = "https://www.laurenszaboart.weebly.com">Artwork</a></li>
