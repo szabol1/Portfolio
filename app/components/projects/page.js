@@ -36,7 +36,7 @@ export default function Projects(){
             </a>
 
             {/* Image 2 with Link */}
-            <a href="https://github.com/szabol1/Mustic-Recommender" target="_blank" className="p-2 rounded-lg min-w-0">
+            <a href="https://github.com/szabol1/Music-Recommender" target="_blank" className="p-2 rounded-lg min-w-0">
            
             <div className = "transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/30 shadow-md">
             <Image src="/images/music logo.png" alt="Image 2" width={800} height={800} className = " object-cover bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-100 transition duration-300 ease-in-out hover:opacity-80"/>
@@ -58,7 +58,7 @@ export default function Projects(){
             </a>
 
             {/* Image 2 with Link */}
-            <a href="https://example.com/page2" target="_blank" className="p-2 rounded-lg min-w-0">
+            <a href="https://github.com/szabol1/Stock-Trading" target="_blank" className="p-2 rounded-lg min-w-0">
            
             <div className = "transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/30 shadow-md">
             <Image src="/images/stock.png" alt="Image 2" width={800} height={800} className = " object-cover bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-100 transition duration-300 ease-in-out hover:opacity-80"/>
