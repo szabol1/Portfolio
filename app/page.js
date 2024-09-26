@@ -26,7 +26,7 @@ export default function Home() {
     </div>
     <div className = " mt-52 w-full h-screen p-20 ">
         <h1 className="text-center font-semibold text-6xl mb-20">What Can I Do For You?</h1>
-        <div className="flex flex-row w-full justify-between mt-6">
+        <div className=" pictures flex flex-row w-full justify-between mt-6">
             <img
             className = "img"
 
@@ -43,18 +43,33 @@ export default function Home() {
             src ="/images/programmer.png"
             />
            </div>
-           <div className ="flex items-center justify-between w-full mt-7 lg:px-32  ">
-            <h1 className="titles lg:px-6">Leader</h1>
-            <h1 className="titles">Designer</h1>
-            <h1 className="titles">Developer</h1>
-            </div>
-            <div className ="flex items-center justify-between w-full mt-7 lg:px-10 text-center ">
-            <h1 className = "lg:w-1/4 w-1/3 ">Leadership: my experience as a  teacher has given me both leadership experience and the ability to guide others towards understanding concepts</h1>
-            <h1 className = "lg:w-1/4 w-1/3">Design: my background in art and design gives me strong skills in front end development that can be utilized for mock ups as well as building ui from the ground up.</h1>
-            <h1 className = "lg:w-1/4 w-1/3">Programming: after doing some self teaching to prove myself for the program I enrolled into a masters in computer science, and dived deeper into advanced programming topics while fortifying my programming and logical thinking skills</h1>
-            </div>
+           <div className="flex flex-col md:flex-row items-center justify-between w-full mt-7 lg:px-50 text-center">
+          <h1 className="titles w-full md:w-1/3 lg:px-8">Leader</h1>
+          <h1 className="titles w-full md:w-1/3">Designer</h1>
+          <h1 className="titles w-full md:w-1/3">Developer</h1>
+        </div>
+
+        {/* Descriptions Section */}
+        <div className="flex flex-col md:flex-row items-center justify-between w-full mt-7 lg:px-10 text-center">
+          <h1 className="lg:w-1/4 w-full md:w-1/3 mb-6 md:mb-0">
+            Leadership: my experience as a teacher has given me both leadership
+            experience and the ability to guide others towards understanding
+            concepts.
+          </h1>
+          <h1 className="lg:w-1/4 w-full md:w-1/3 mb-6 md:mb-0">
+            Design: my background in art and design gives me strong skills in
+            front end development that can be utilized for mock ups as well as
+            building UI from the ground up.
+          </h1>
+          <h1 className="lg:w-1/4 w-full md:w-1/3">
+            Programming: after doing some self-teaching to prove myself for the
+            program, I enrolled into a master's in computer science and dived
+            deeper into advanced programming topics while fortifying my
+            programming and logical thinking skills.
+          </h1>
+        </div>
       </div>
-    <div className = "absolute bottom-0 w-full lg:static pt-20">
+    <div className = "bottom-0 w-full lg:static pt-20">
       <Footer />
       </div>
     </div>

@@ -56,6 +56,13 @@
     display:none;
     
   }
+  .pictures{
+    display:none;
+  }
+  .words{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
 }
 
