@@ -63,13 +63,16 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+  .landing{
+    
+  }
 
 }
 
 
 @media (max-width: 768px) {
   .text h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 

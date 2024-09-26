@@ -6,9 +6,9 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-    <div className = "flex background">
+    <div className = "landing flex background">
 
-     <div className="flex flex-col ">
+     <div className="flex flex-col">
       <div className="text m-12 p-4 bg-white bg-opacity-70 flex flex-col">
         <div className="relative z-10 flex flex-col sm:flex-wrap">
         <h1 className = "lg:text-9xl m-8 mt-3">Hello!</h1>
@@ -24,7 +24,7 @@ export default function Home() {
 
     </div>
     </div>
-    <div className = " mt-52 w-full h-screen p-20 ">
+    <div className = "mb-52 mt-52 w-full h-screen p-20 ">
         <h1 className="text-center font-semibold text-6xl mb-20">What Can I Do For You?</h1>
         <div className=" pictures flex flex-row w-full justify-between mt-6">
             <img
